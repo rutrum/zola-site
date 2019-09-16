@@ -11,7 +11,7 @@ if [ $? -ne 0 ]; then
     exit
 fi
 
-cp -r public/ ~/repo/rutrum.github.io/
+cp -r public/* ~/repo/rutrum.github.io/
 cd ~/repo/rutrum.github.io/
 git add .
 git commit -m "$COMMIT_MSG"

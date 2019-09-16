@@ -2,16 +2,4 @@
 title = "First blog post"
 +++
 
-## Heayo
-
-#### Header
-
-paragraph 
-
-##### Header
-
-paragraph
-
-###### Header
-
-paragraph
+This is my blog post. Kats kitkats
