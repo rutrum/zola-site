@@ -3,6 +3,8 @@ title = "Resume"
 template = "resume.html"
 +++
 
+You can view my resume below or look at the [pdf](/DavidPurdumResume.pdf) version.
+
 ## Education
 
 ### Butler University
