@@ -1,8 +1,13 @@
 +++
 title = "Calculating M(n)"
+description = "Calculating M(n) for values up to 2^30 and beyond."
 +++
 
-I'm currently researching algorithms for calculating $M(n)$, the number of distinct integers in the $n$ by $n$ multiplication table.  I have been working with Dr. Jonathon Webster at Butler University on this project.  I have implemented an algorithm in C++ to determine values of $M(n)$ for $n$ up to $2^{30}$.  The algorithm uses linear space complexity and has been implemented in parallel.
+Calculating values of M(n) is now linear in memory since Dr. Jonathon Webster and I have created and implemented a new solution.
+
+<!-- more -->
+
+M(n) is defined as the number of distinct integers in the n by n multiplication table.  Dr. Jonathon Webster and I at Butler University have implemented an algorithm in C++ to determine values of M(n) for n up to 2<sup>30</sup>.  The algorithm uses linear space complexity and has been implemented in parallel.
 
 I presented a [poster](http://www.math.grinnell.edu/~paulhusj/ants2018/ppresent.html) with Jonathon Webster at ANTS 2018 in Madison, Wisconsin.  The poster discussed the history of the problem and the new algorithm we implemented to calculate M(n) in asymptotically less space, and practically less time.
 
